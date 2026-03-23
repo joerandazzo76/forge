@@ -26,10 +26,7 @@ Thumbs.db
 
 # Logs
 *.log
-<<<<<<< HEAD
 logs/
-=======
-logs/
->>>>>>> 678aea4 (feat: add SQLite state engine and .gitignore)
 
+# Generated test project
 testapp/
