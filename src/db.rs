@@ -4,6 +4,7 @@ use std::path::Path;
 const DB_DIR: &str = ".forge";
 const DB_FILE: &str = "forge.db";
 
+#[allow(dead_code)]
 #[derive(Debug, Clone)]
 pub struct ProjectRecord {
     pub id: i64,

@@ -1,5 +1,5 @@
-   0.031831500s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint: fingerprint error for forge v0.1.0 (C:\Users\joe\Documents\Playground\forge)/Check { test: false }/TargetInner { name: "forge", doc: true, ..: with_path("C:\\Users\\joe\\Documents\\Playground\\forge\\src\\main.rs", Edition2021) }
-   0.031867400s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\forge-ddce991ea2578198\bin-forge`
+   0.034730900s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint: fingerprint error for forge v0.1.0 (C:\Users\joe\Documents\Playground\forge)/Check { test: false }/TargetInner { name: "forge", doc: true, ..: with_path("C:\\Users\\joe\\Documents\\Playground\\forge\\src\\main.rs", Edition2021) }
+   0.034771300s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\forge-90c9ed9c8225e4f4\bin-forge`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.037688100s  INFO prepare_target{force=false package_id=clap v4.6.0 target="clap"}: cargo::core::compiler::fingerprint: fingerprint error for clap v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap-4.6.0\\src\\lib.rs", Edition2024) }
-   0.037709300s  INFO prepare_target{force=false package_id=clap v4.6.0 target="clap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\clap-8fac5a220471f874\lib-clap`
+   0.041298300s  INFO prepare_target{force=false package_id=clap v4.6.0 target="clap"}: cargo::core::compiler::fingerprint: fingerprint error for clap v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap-4.6.0\\src\\lib.rs", Edition2024) }
+   0.041324900s  INFO prepare_target{force=false package_id=clap v4.6.0 target="clap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\clap-8fac5a220471f874\lib-clap`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -55,8 +55,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.038044100s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint error for clap_builder v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_builder-4.6.0\\src\\lib.rs", Edition2024) }
-   0.038055300s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\clap_builder-5cc545094f71ab82\lib-clap_builder`
+   0.041777100s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint error for clap_builder v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_builder-4.6.0\\src\\lib.rs", Edition2024) }
+   0.041789500s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\clap_builder-5cc545094f71ab82\lib-clap_builder`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -85,67 +85,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.040826400s  INFO prepare_target{force=false package_id=rusqlite v0.30.0 target="rusqlite"}: cargo::core::compiler::fingerprint: fingerprint error for rusqlite v0.30.0/Check { test: false }/TargetInner { ..: lib_target("rusqlite", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rusqlite-0.30.0\\src\\lib.rs", Edition2021) }
-   0.040841500s  INFO prepare_target{force=false package_id=rusqlite v0.30.0 target="rusqlite"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\rusqlite-00fe3c52899cbccd\lib-rusqlite`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_libgit2_prerelease
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: git_midx_writer_dump
-  18: git_filter_source_repo
-  19: git_midx_writer_dump
-  20: BaseThreadInitThunk
-  21: RtlUserThreadStart
-   0.041315700s  INFO prepare_target{force=false package_id=hashlink v0.8.4 target="hashlink"}: cargo::core::compiler::fingerprint: fingerprint error for hashlink v0.8.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashlink", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashlink-0.8.4\\src\\lib.rs", Edition2018) }
-   0.041326000s  INFO prepare_target{force=false package_id=hashlink v0.8.4 target="hashlink"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\hashlink-67825a340c9064d5\lib-hashlink`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_filter_source_repo
-  12: git_filter_source_repo
-  13: git_libgit2_prerelease
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: git_midx_writer_dump
-  19: git_filter_source_repo
-  20: git_midx_writer_dump
-  21: BaseThreadInitThunk
-  22: RtlUserThreadStart
-   0.041483400s  INFO prepare_target{force=false package_id=hashbrown v0.14.5 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.14.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.14.5\\src\\lib.rs", Edition2021) }
-   0.041491300s  INFO prepare_target{force=false package_id=hashbrown v0.14.5 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\hashbrown-4e23ae49b8e2d60f\lib-hashbrown`
+   0.042134500s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint: fingerprint error for anstream v1.0.0/Check { test: false }/TargetInner { ..: lib_target("anstream", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstream-1.0.0\\src\\lib.rs", Edition2021) }
+   0.042145100s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\anstream-653c4b16c8e42cc4\lib-anstream`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -175,8 +116,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.041640200s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.12/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.12\\src\\lib.rs", Edition2018) }
-   0.041647500s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\ahash-ead742c17fbac6b0\lib-ahash`
+   0.042504800s  INFO prepare_target{force=false package_id=anstyle v1.0.14 target="anstyle"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle v1.0.14/Check { test: false }/TargetInner { ..: lib_target("anstyle", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-1.0.14\\src\\lib.rs", Edition2021) }
+   0.042514900s  INFO prepare_target{force=false package_id=anstyle v1.0.14 target="anstyle"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\anstyle-b96255778312e6c8\lib-anstyle`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -207,8 +148,40 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.042494100s  INFO prepare_target{force=false package_id=zerocopy v0.8.47 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.47/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.47\\src\\lib.rs", Edition2021) }
-   0.042505200s  INFO prepare_target{force=false package_id=zerocopy v0.8.47 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\zerocopy-47b80efbf5b7f3b4\lib-zerocopy`
+   0.042842000s  INFO prepare_target{force=false package_id=anstyle-parse v1.0.0 target="anstyle_parse"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-parse v1.0.0/Check { test: false }/TargetInner { ..: lib_target("anstyle_parse", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-parse-1.0.0\\src\\lib.rs", Edition2021) }
+   0.042850700s  INFO prepare_target{force=false package_id=anstyle-parse v1.0.0 target="anstyle_parse"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\anstyle-parse-f8fb016bb24063c1\lib-anstyle_parse`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.043436200s  INFO prepare_target{force=false package_id=utf8parse v0.2.2 target="utf8parse"}: cargo::core::compiler::fingerprint: fingerprint error for utf8parse v0.2.2/Check { test: false }/TargetInner { ..: lib_target("utf8parse", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\utf8parse-0.2.2\\src\\lib.rs", Edition2018) }
+   0.043448800s  INFO prepare_target{force=false package_id=utf8parse v0.2.2 target="utf8parse"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\utf8parse-3059cfde13c04425\lib-utf8parse`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -240,8 +213,701 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.043886000s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint: fingerprint error for forge v0.1.0 (C:\Users\joe\Documents\Playground\forge)/Check { test: true }/TargetInner { name: "forge", doc: true, ..: with_path("C:\\Users\\joe\\Documents\\Playground\\forge\\src\\main.rs", Edition2021) }
-   0.043897800s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\forge-618ca6a227516caf\test-bin-forge`
+   0.043794300s  INFO prepare_target{force=false package_id=anstyle-query v1.1.5 target="anstyle_query"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-query v1.1.5/Check { test: false }/TargetInner { ..: lib_target("anstyle_query", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-query-1.1.5\\src\\lib.rs", Edition2021) }
+   0.043805400s  INFO prepare_target{force=false package_id=anstyle-query v1.1.5 target="anstyle_query"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\anstyle-query-f146890bacf883cf\lib-anstyle_query`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.044268000s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.61.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.61.2\\src\\lib.rs", Edition2021) }
+   0.044281700s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\windows-sys-8dc844a483fd37a0\lib-windows_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.044769600s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint: fingerprint error for windows-link v0.2.1/Check { test: false }/TargetInner { ..: lib_target("windows_link", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-link-0.2.1\\src\\lib.rs", Edition2021) }
+   0.044784200s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\windows-link-882f771385b9250c\lib-windows_link`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.045091800s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.11 target="anstyle_wincon"}: cargo::core::compiler::fingerprint: fingerprint error for anstyle-wincon v3.0.11/Check { test: false }/TargetInner { ..: lib_target("anstyle_wincon", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anstyle-wincon-3.0.11\\src\\lib.rs", Edition2021) }
+   0.045102100s  INFO prepare_target{force=false package_id=anstyle-wincon v3.0.11 target="anstyle_wincon"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\anstyle-wincon-fe204ade2047a97d\lib-anstyle_wincon`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.045470400s  INFO prepare_target{force=false package_id=once_cell_polyfill v1.70.2 target="once_cell_polyfill"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell_polyfill v1.70.2/Check { test: false }/TargetInner { ..: lib_target("once_cell_polyfill", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell_polyfill-1.70.2\\src\\lib.rs", Edition2021) }
+   0.045482800s  INFO prepare_target{force=false package_id=once_cell_polyfill v1.70.2 target="once_cell_polyfill"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\once_cell_polyfill-22e7a135724673a8\lib-once_cell_polyfill`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.045812000s  INFO prepare_target{force=false package_id=colorchoice v1.0.5 target="colorchoice"}: cargo::core::compiler::fingerprint: fingerprint error for colorchoice v1.0.5/Check { test: false }/TargetInner { ..: lib_target("colorchoice", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\colorchoice-1.0.5\\src\\lib.rs", Edition2021) }
+   0.045822300s  INFO prepare_target{force=false package_id=colorchoice v1.0.5 target="colorchoice"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\colorchoice-ceacc9662cace069\lib-colorchoice`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.046156400s  INFO prepare_target{force=false package_id=is_terminal_polyfill v1.70.2 target="is_terminal_polyfill"}: cargo::core::compiler::fingerprint: fingerprint error for is_terminal_polyfill v1.70.2/Check { test: false }/TargetInner { ..: lib_target("is_terminal_polyfill", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\is_terminal_polyfill-1.70.2\\src\\lib.rs", Edition2021) }
+   0.046167900s  INFO prepare_target{force=false package_id=is_terminal_polyfill v1.70.2 target="is_terminal_polyfill"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\is_terminal_polyfill-2d8b1b9b3d28ef56\lib-is_terminal_polyfill`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.046764200s  INFO prepare_target{force=false package_id=clap_lex v1.1.0 target="clap_lex"}: cargo::core::compiler::fingerprint: fingerprint error for clap_lex v1.1.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_lex", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\clap_lex-1.1.0\\src\\lib.rs", Edition2024) }
+   0.046789200s  INFO prepare_target{force=false package_id=clap_lex v1.1.0 target="clap_lex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\clap_lex-1c8bff03e0b09984\lib-clap_lex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.047498100s  INFO prepare_target{force=false package_id=strsim v0.11.1 target="strsim"}: cargo::core::compiler::fingerprint: fingerprint error for strsim v0.11.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("strsim", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\strsim-0.11.1\\src\\lib.rs", Edition2015) }
+   0.047520700s  INFO prepare_target{force=false package_id=strsim v0.11.1 target="strsim"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\strsim-692b75045f8e83e5\lib-strsim`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.050043400s  INFO prepare_target{force=false package_id=rusqlite v0.30.0 target="rusqlite"}: cargo::core::compiler::fingerprint: fingerprint error for rusqlite v0.30.0/Check { test: false }/TargetInner { ..: lib_target("rusqlite", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rusqlite-0.30.0\\src\\lib.rs", Edition2021) }
+   0.050064100s  INFO prepare_target{force=false package_id=rusqlite v0.30.0 target="rusqlite"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\rusqlite-991b48f61e833182\lib-rusqlite`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.050636300s  INFO prepare_target{force=false package_id=bitflags v2.11.0 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint error for bitflags v2.11.0/Check { test: false }/TargetInner { ..: lib_target("bitflags", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bitflags-2.11.0\\src\\lib.rs", Edition2021) }
+   0.050650900s  INFO prepare_target{force=false package_id=bitflags v2.11.0 target="bitflags"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\bitflags-a045dea5dc523bc7\lib-bitflags`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.051027600s  INFO prepare_target{force=false package_id=fallible-iterator v0.3.0 target="fallible_iterator"}: cargo::core::compiler::fingerprint: fingerprint error for fallible-iterator v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("fallible_iterator", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\fallible-iterator-0.3.0\\src\\lib.rs", Edition2018) }
+   0.051040000s  INFO prepare_target{force=false package_id=fallible-iterator v0.3.0 target="fallible_iterator"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\fallible-iterator-247ecd03dac03034\lib-fallible_iterator`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.051349900s  INFO prepare_target{force=false package_id=fallible-streaming-iterator v0.1.9 target="fallible_streaming_iterator"}: cargo::core::compiler::fingerprint: fingerprint error for fallible-streaming-iterator v0.1.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("fallible_streaming_iterator", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\fallible-streaming-iterator-0.1.9\\src\\lib.rs", Edition2015) }
+   0.051361000s  INFO prepare_target{force=false package_id=fallible-streaming-iterator v0.1.9 target="fallible_streaming_iterator"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\fallible-streaming-iterator-55f5b5f69c554172\lib-fallible_streaming_iterator`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.051692700s  INFO prepare_target{force=false package_id=hashlink v0.8.4 target="hashlink"}: cargo::core::compiler::fingerprint: fingerprint error for hashlink v0.8.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashlink", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashlink-0.8.4\\src\\lib.rs", Edition2018) }
+   0.051707000s  INFO prepare_target{force=false package_id=hashlink v0.8.4 target="hashlink"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\hashlink-67825a340c9064d5\lib-hashlink`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.052294000s  INFO prepare_target{force=false package_id=hashbrown v0.14.5 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.14.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.14.5\\src\\lib.rs", Edition2021) }
+   0.052311500s  INFO prepare_target{force=false package_id=hashbrown v0.14.5 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\hashbrown-4e23ae49b8e2d60f\lib-hashbrown`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.052675700s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.12/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.12\\src\\lib.rs", Edition2018) }
+   0.052687500s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\ahash-ead742c17fbac6b0\lib-ahash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.053570700s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
+   0.053584200s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\cfg-if-f35af99d81ed8f2e\lib-cfg_if`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.053934000s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.4/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.4\\src\\lib.rs", Edition2021) }
+   0.053945300s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\once_cell-4279fbb0d17b11c2\lib-once_cell`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.054234100s  INFO prepare_target{force=false package_id=zerocopy v0.8.47 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.47/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.47\\src\\lib.rs", Edition2021) }
+   0.054243300s  INFO prepare_target{force=false package_id=zerocopy v0.8.47 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\zerocopy-47b80efbf5b7f3b4\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.055227300s  INFO prepare_target{force=false package_id=allocator-api2 v0.2.21 target="allocator_api2"}: cargo::core::compiler::fingerprint: fingerprint error for allocator-api2 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("allocator_api2", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\allocator-api2-0.2.21\\src\\lib.rs", Edition2018) }
+   0.055241700s  INFO prepare_target{force=false package_id=allocator-api2 v0.2.21 target="allocator_api2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\allocator-api2-77db4a2ad45e147e\lib-allocator_api2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.055549900s  INFO prepare_target{force=false package_id=libsqlite3-sys v0.27.0 target="libsqlite3_sys"}: cargo::core::compiler::fingerprint: fingerprint error for libsqlite3-sys v0.27.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsqlite3_sys", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libsqlite3-sys-0.27.0\\src\\lib.rs", Edition2021) }
+   0.055560100s  INFO prepare_target{force=false package_id=libsqlite3-sys v0.27.0 target="libsqlite3_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\libsqlite3-sys-ef3ba2de71919904\lib-libsqlite3_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.056781200s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint: fingerprint error for smallvec v1.15.1/Check { test: false }/TargetInner { ..: lib_target("smallvec", ["lib"], "C:\\Users\\joe\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\smallvec-1.15.1\\src\\lib.rs", Edition2018) }
+   0.056794000s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\smallvec-20a3ecfe39b174e5\lib-smallvec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.057256400s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint: fingerprint error for forge v0.1.0 (C:\Users\joe\Documents\Playground\forge)/Check { test: true }/TargetInner { name: "forge", doc: true, ..: with_path("C:\\Users\\joe\\Documents\\Playground\\forge\\src\\main.rs", Edition2021) }
+   0.057269000s  INFO prepare_target{force=false package_id=forge v0.1.0 (C:\Users\joe\Documents\Playground\forge) target="forge"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\joe\Documents\Playground\forge\target\debug\.fingerprint\forge-e3830b8152d4b025\test-bin-forge`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -268,7 +934,28 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
+    Checking windows-link v0.2.1
+    Checking once_cell_polyfill v1.70.2
+    Checking anstyle v1.0.14
+    Checking once_cell v1.21.4
+    Checking cfg-if v1.0.4
+    Checking utf8parse v0.2.2
+    Checking is_terminal_polyfill v1.70.2
+    Checking allocator-api2 v0.2.21
+    Checking colorchoice v1.0.5
+    Checking strsim v0.11.1
+    Checking clap_lex v1.1.0
+    Checking fallible-iterator v0.3.0
+    Checking smallvec v1.15.1
+    Checking fallible-streaming-iterator v0.1.9
+    Checking bitflags v2.11.0
     Checking zerocopy v0.8.47
+    Checking libsqlite3-sys v0.27.0
+    Checking windows-sys v0.61.2
+    Checking anstyle-parse v1.0.0
+    Checking anstyle-wincon v3.0.11
+    Checking anstyle-query v1.1.5
+    Checking anstream v1.0.0
     Checking clap_builder v4.6.0
     Checking clap v4.6.0
     Checking ahash v0.8.12
@@ -276,4 +963,4 @@ Stack backtrace:
     Checking hashlink v0.8.4
     Checking rusqlite v0.30.0
     Checking forge v0.1.0 (C:\Users\joe\Documents\Playground\forge)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.06s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.22s
